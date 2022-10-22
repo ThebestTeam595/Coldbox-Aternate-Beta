@@ -53,7 +53,7 @@ var app = new function() {
         color: "20DF20",
         uniqsnd: !0
     }, {
-        name: "14_arp",
+        name: "14_arpeg",
         color: "20DF20",
         uniqsnd: !0
     }, {
