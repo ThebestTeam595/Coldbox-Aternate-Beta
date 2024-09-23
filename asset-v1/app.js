@@ -1,6 +1,6 @@
 /* 0.5.0 2022-8-10 12:44:31 */
 var app = new function() {
-    this.name = "Mechanic", this.version = "1", this.date = "2022", this.folder = "asset-v1/", this.looptime = 6852, this.bpm = 140, this.totalframe = 452, this.nbpolo = 7, this.nbloopbonus = 1, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 92, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#0a190f", this.col0 = "#564BB5", this.col1 = "#4A3FA4", this.col2 = "#362C86", this.col3 = "#332184", this.col4 = "#2C1A67", this.animearray = [{
+    this.name = "Mechanic", this.version = "1", this.date = "2022", this.folder = "asset-v1/", this.looptime = 6852, this.bpm = 140, this.totalframe = 452, this.nbpolo = 7, this.nbloopbonus = 8, this.bonusloopA = !0, this.bonusendloopA = !1, this.recmaxloop = 92, this.recminloop = 3, this.recmintime = Math.round(this.looptime / 1e3) * this.recminloop, this.spritepolo = "polo-sprite.png", this.spritepicto = "game-picto.png", this.colBck = "#0a190f", this.col0 = "#564BB5", this.col1 = "#4A3FA4", this.col2 = "#362C86", this.col3 = "#332184", this.col4 = "#2C1A67", this.animearray = [{
         name: "1_pump",
         color: "DF8020",
         uniqsnd: !0
