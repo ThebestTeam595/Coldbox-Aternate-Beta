@@ -80,7 +80,15 @@ var app = new function() {
         name: "20_doot",
         color: "DF2020",
         uniqsnd: !0
-    }], this.bonusarray = [/*No bonus lol*/];
+    }], this.bonusarray = [{ name: "chegou",
+        src: "v5-b2-chegou-hb.mp4",
+        code: "1,3,6,12,20",
+        sound: "bonus-chegou.ogg",
+        aspire: "aspire"},{ name: "felicidade",
+        src: "v5-b1-felicidade-hb.mp4",
+        code: "1,5,6,11,15",
+        sound: "bonus-felicidade.ogg",
+        aspire: "aspire"},];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
         this.animearray[n].soundA = a + "_a", this.animearray[n].soundB = this.animearray[n].uniqsnd ? a + "_a" : a + "_b", this.animearray[n].anime = a + "-sprite.png", this.animearray[n].animeData = a + ".json"
