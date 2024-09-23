@@ -83,11 +83,11 @@ var app = new function() {
     }], this.bonusarray = [{ name: "chegou",
         src: "v5-b2-chegou-hb.mp4",
         code: "1,3,6,12,20",
-        sound: "bonus-chegou.ogg",
+        sound: "bonus-chegou",
         aspire: "aspire"},{ name: "felicidade",
         src: "v5-b1-felicidade-hb.mp4",
         code: "1,5,6,11,15",
-        sound: "bonus-felicidade.ogg",
+        sound: "bonus-felicidade",
         aspire: "aspire"},];
     for (var n = 0, o = this.animearray.length; n < o; n++) {
         var a = this.animearray[n].name;
